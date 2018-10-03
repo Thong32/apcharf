@@ -3,7 +3,7 @@
 #define IN  1	/* inside a word */
 #define OUT 2	/* outside a word */
 
-/* count lines, worlds, and characters in input */
+/* count lines, words, and characters in input */
 main()
 {
 	int c, nl, nw, nc, state;
